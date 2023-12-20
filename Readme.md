@@ -13,7 +13,7 @@ Si vous utilisez une machine perso, installez docker (voir [ici](http://olivier.
 
 
 
-### Etape 0: Test de votre installation (peut etre passé si vous utiliser Katacoda)###
+### Etape 0: Test de votre installation
 
 ```bash
 docker run hello-world
@@ -163,7 +163,6 @@ Pour faire tourner votre application, il faudra installer le jar d'open CV dans 
 
 Testons cette application. Tout d'abord installons les dépendances nécessaire. 
 
-Pour faire tourner dans kadacoda
 ```bash
 apt-get update
 apt-get install -y openjdk-8-jdk
@@ -193,7 +192,6 @@ Lancez cette application.
      java -Djava.library.path=lib/ubuntuupperthan18/ -jar target/fatjar-0.0.1-SNAPSHOT.jar
 ```
 
-Dans katacoda, sélectionnez sur le symbole **+** (création d'un nouveau terminal), *select port to view on client 1ù. Sélectionnez le port 8080. 
 
 Voici votre application. 
 
